@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+A {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    color: dimgray;
+}
+#cheader {
+    height:50px;
+    padding-top: 5px;
+    border-bottom: 2px solid dimgray;
+    font-family: d_GarageGothic Regular;
+    font-size: 40px;
+    background-color: #ecf0f1;
+    color: dimgray;
+    text-align: center;
+}
+#block01{
+    height: 500px;
+    background-image: url(../images/oblojka.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#block02{
+    margin: 0 auto;
+    width: 612px;
+}
+#icon{
+    display: block;
+    float: left;
+    padding-top: 5px;
+    font-family: Montserrat;
+    font-size: 20px;
+    text-align: center;
+    color: dimgray;
+    width: 200px;
+    height: 30px;
+    background: #ecf0f1;
+    border-radius: 0 0 12px 12px;
+    border: 2px solid dimgray;
+}
+#wrapper{
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+#content{
+    flex: 1 0 auto;
+    margin: 0 auto;
+    width: 900px;
+    height: auto;
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: dimgray;
+}
+h1{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: dimgray;
+}
+h2{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: dimgray;
+}
+.article_text{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    line-height: 1.8;
+    color: #909497;
+}
+.katal_text{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.8;
+    color: #909497;
+}
+#new{
+    margin: 20px auto;
+    padding: 15px;
+    width: 766px;
+    height: 120px;
+    border: 2px solid dimgray;
+    background-color: #ecf0f1;
+}
+#cfooter {
+    flex: 0 0 auto;
+    height:40px;
+    padding-top: 25px;
+    border-top: 2px solid dimgray;
+    font-family: Montserrat;
+    font-size: 15px;
+    background-color: #ecf0f1;
+    color: #909497;
+    text-align: center;
+}
+th {
+    width: 300px;
+    height:50px
+}
+.container{
+	background-color: aqua;
+}
+.block1, .block2{
+	float: left;
+	border: 1px solid black;
+	padding: 10px;
+	width: 50%;
+	box-sizing: border-box;
+}
+.clearfix{
+	clear: both;
+}
